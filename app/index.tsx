@@ -11,13 +11,22 @@ export default function HomeScreen() {
           Apprenez le français facilement
         </Text>
 
-        {/* Button */}
+        {/* Buttons */}
         <Pressable
           onPress={() => router.push("/alphabet")}
-          className="bg-blue-100 px-10 py-5 rounded-3xl shadow-md"
+          className="bg-blue-100 px-10 py-5 rounded-3xl shadow-md mb-4"
         >
           <Text className="text-blue-700 text-xl font-semibold text-center">
-            L'alphabet
+            L&apos;alphabet
+          </Text>
+        </Pressable>
+
+        <Pressable
+          onPress={() => router.push("/quiz")}
+          className="bg-blue-600 px-10 py-5 rounded-3xl shadow-md"
+        >
+          <Text className="text-white text-xl font-semibold text-center">
+            Le quiz
           </Text>
         </Pressable>
       </View>

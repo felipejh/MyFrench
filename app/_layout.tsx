@@ -21,6 +21,10 @@ export default function RootLayout() {
           name="alphabet/index"
           options={{ headerBackTitle: "Home", headerTitle: "L'alphabet" }}
         />
+        <Stack.Screen
+          name="quiz/index"
+          options={{ headerBackTitle: "Home", headerTitle: "Le quiz" }}
+        />
       </Stack>
       <StatusBar style="auto" />
     </ThemeProvider>
